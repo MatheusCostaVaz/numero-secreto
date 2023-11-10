@@ -3,7 +3,7 @@ function verificaSeOChutePossuiUmValorValido(chute){
     
 
     if(ChuteInvalido(numero)){
-        if(chute.toUpperCase() === "GAME OVER."){
+        if(chute.toUpperCase() === "GAME OVER." || chute.toUpperCase() === "GAME OVER"){
             document.body.innerHTML = `
             <h4>GAME OVER!!!</h4>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
